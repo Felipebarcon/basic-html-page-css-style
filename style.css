@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -43,7 +43,6 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
-  width: 500px;
 }
 
 /* SMALLER ELEMETS */
@@ -232,4 +231,18 @@ nav {
   content: '';
   clear: both;
   display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
